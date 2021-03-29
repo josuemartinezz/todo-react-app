@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import AppInput from './components/ui/AppInput'
+import Input from './components/ui/Input.jsx'
 
 function App() {
 
