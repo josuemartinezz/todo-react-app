@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "todo-list-react-bcc4c",
     "public": "build",
     "ignore": [
       "firebase.json",
