@@ -29,7 +29,7 @@ const App = () => {
   }
 
   return (
-    <div className="h-screen max-w-lg mx-auto items-center grid">
+    <div className="h-screen max-w-xs sm:max-w-lg lg:max-w-lg mx-auto items-center grid container">
       <div className="space-y-2">
         <Input name="task" onKeyDown={addTask} handle={(val) => setTask(val)} placeholder="Add new task..." />
         <div className="max-h-96 overflow-auto space-y-2">
